@@ -1,0 +1,187 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.4 (1/12/21)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+% Added-up
+% mainly on colors and sizes
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{amssymb}
+\usepackage[scale=0.875]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{NIU} % Your first name
+\familyname{Xuezhi} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{Roslagstullsbacken 5}{Stockholm, Sweden 11422}
+%\mobile{(064) 764334132}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{xuezhin@kth.se}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{\emailsymbol\emaillink{n7729697@gmail.com}(personal)}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-2] % Dummy text
+%\lipsum[4] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\huge Education}
+\cventry{\small2021.9-present}{MSc. in Mechatronics}{KTH Royal Institute of Technology}{Stockholm, Sweden}{}{Modulus in Control Theory, Embedded System, ROS, Biomechanics and Neuronics, C programming, Artificial Intelligence etc.}
+\cventry{\small2017.9--2021.7}{B.Eng. in Mechanical Engineering}{City University of Hong Kong}{Hong Kong SAR, China}{}{Modulus in Control theory, Embedded system, Machine vision, Signal and systems, Thermodynamics, Fluid dynamics, CAD/CAM, MEMS, Manufacturing techniques, Materials, Mechanics, C\texttt{++} etc.}
+\cventry{\small2020.1--2020.6}{Formal Exchange}{National University of Singapore}{Singapore}{}{Education in MEMS, Biomaterials, Aerodynamics and Java programming}
+%\cventry{\small2018.5--2018.6}{Summer School}{Middlesex University London}{London, UK}{}{Education in academic English}
+%\cventry{\small2014.9--2017.6}{High school}{Suizhou No.1 Middle High School}{Suizhou, Hubei, China}{}{The top 50 in National College Entrance Examination}
+
+%\section{Masters Thesis}
+
+%\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
+%\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
+%\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\huge Experience}
+\subsection{\textbf{Academic}}
+\cventry{\small2022.3--present}{Intelligent Control of Soft Quadruped Robot by Model-based Reinforcement Learning}{Supervised by \href{https://www.kth.se/profile/kaiget/?l=en}{Tan Kaige}}{Master Thesis}{Stockholm, Sweden}{Designing an alternative shut-off valve that is electronically regulated by sensors developed in the milking systems. Conducting research on the related fields and doing experiments on self-designed prototypes, analyzing results and discussing the findings.}
+\cventry{\small2022.3--2023.1}{Electronically vacuum regulated shut-off valve for milking system}{Cooperated with DeLaval International}{HK Project}{Tumba, Sweden}{Designing an alternative shut-off valve that is electronically regulated by sensors developed in the milking systems. Conducting research on the related fields and doing experiments on self-designed prototypes, analyzing results and discussing the findings.}
+\cventry{\small2022.1--2022.5}{Autonomous drone using monocular camera}{Guided by \href{https://www.kth.se/profile/patric/}{Prof. Patric Jensfelt}}{Project course}{Stockholm, Sweden}{Construct a drone system on ROS to move autonomously in a known environment with limited sensing resources. In addition to implementing the software for detecting, identifying and positioning the intruders, such as traffic signs.}
+% \cventry{\small2021.1--2021.6}{Design and manufacture of wind turbine blades}{Guided by \href{https://www.cityu.edu.hk/mne/people/academic-staff/prof-li-ky-lawrence}{Prof. LI, K.Y., Lawrence}}{Course project}{Hong Kong SAR, China}{Design and manufacture the wind turbine blade for a competition in class and won 2nd place, the prototypes were manufactured based on 3D printing.}
+\cventry{\small2020.9--2021.6}{Bubble energy liquid-based electricity generator}{Supervised by \href{https://www.cityu.edu.hk/mne/people/academic-staff/prof-wang-zuankai}{Prof. WANG Zuankai}}{Final Year Project}{Hong Kong SAR, China}{Exploring effective energy harvesting method utilizing triboelectric effect for air bubbles, proposing and designing prototype for widely used unit. Conducting experiments on self-designed stations, analyzing results and discussing the findings.}
+% \cventry{\small2021.1--2021.5}{Automated guided vehicle navigation}{Guided by \href{https://www.cityu.edu.hk/mne/people/academic-staff/dr-liu-jun}{Prof. LIU, Jun}}{Course Project}{Hong Kong SAR, China}{Implement the program for a AGV to navigate on the printed desh line, the controller were written by \texttt{C\#} and the embedded microcontroller is LPC1343, finally won 3rd prize at mission accomplishment competition.}
+\cventry{\small2019.4--2020.1}{Synthesis and manufacture of flexible batteries}{Supervised by \href{https://www.cityu.edu.hk/mne/people/academic-staff/prof-zhang-kaili}{Prof. Zhang Kaili}}{Internship}{Hong Kong SAR, China}{Take in charge of literature review, conducting experiments, collect and analyze experiment results and business information, preparation for prototype, entry documents, videos, photos, etc. Research on fabrication of seed-assisted hydroxide nanomaterials, flexible electrodes and industrial coating technology.}
+% \cventry{\small2018.9--2019.1}{Utilizing multiple sensors to monitor and predict bone fracture healing}{Supervised by Dr. SHEN, Yajing}{Internship}{Hong Kong SAR, China}{Take in charge of literature review, preparation of prototype, conducting experiments on the prepared prototypes, collect and analyze experiment results etc. Research on multiple sensors cooperation in vivo.}
+% \cventry{\small2017.6--2018.1}{Exploration of the expression profile of miRNA in bovine granulosa cells}{Supervised by Prof. Xu Yefen}{Summer Internship}{Wuhan, China}{Be aware of the general working principle in professional research and helps in standard file preparation, data analysis and translations in genetics fields}
+
+\subsection{\textbf{Social service}}
+\cventry{\small2017.9--2018.6}{E-Buddy Project}{Technology \& Education: Connecting Cultures Hong Kong chapter}{Hong Kong SAR, China}{Co-Principal Investigator}{Bring left-behind children, children with rare diseases, orphans in remote areas knowledge and care by online tutoring and education accompanying. Cumulative duration for 86 hours in 2017-2018, with 10 volunteers and 200 children}
+\cventry{\small2018.1}{Hong Kong Cultural Study Tour}{UNLEASHFOUNDATION Limited}{Hong Kong SAR, China}{volunteer}{A study tour for college students from mainland China to visit and immerse in Hong Kong.}
+%\cventry{\small2017.8--2018.6}{Member of operational ministry}{Technology \& Education: Connecting Cultures Hong Kong chapter}{Hong Kong SAR, China}{}{}
+
+\subsection{\textbf{Sports}}
+\cventry{\small2019.3--2019.4}{Professor Edmond Ko Cup Soccer competition}{City University of Hong Kong}{Hong Kong SAR, China}{Representing Hall 2 of CityU}{Champion}
+\cventry{\small2016.5--2016.6}{High school Soccer Match 2016}{Suizhou Education Bureau}{Suizhou, China}{Representing Suizhou No.1 Middle High School}{Champion}
+
+%Detailed achievements:
+%\begin{itemize}
+%\item Learned how to make amazing coffee
+%\item Finally determined the reason for \textsc{PC LOAD LETTER}:
+%\begin{itemize}
+%\item Paper jam
+%\item Software issues:
+%\begin{itemize}
+%\item Word not sending the correct data to printer
+%\item Windows trying to print in letter format
+%\end{itemize}
+%\item Coffee spilled inside printer
+%\end{itemize}
+%\item Broke the office record for number of kitten pictures in cubicle
+%\end{itemize}
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\huge Achievements}
+
+\cventry{2020.9}{CN patent Grant}{City University of Hong Kong}{Hong Kong SAR, China}{"Novel high-load multi-component metal hydroxide with its synthesis method and application"}{pending approval}
+\cventry{2020.6}{Talent Development Scholarship}{Hong Kong Special Administrative Region Government}{Hong Kong SAR, China}{Hong Kong Special Administrative Region Government Scholarship(2019/2020)}{}
+\cventry{2020.6}{CN patent Grant}{City University of Hong Kong}{Hong Kong SAR, China}{"A flexible battery assembly die and its structural design"}{pending approval}
+\cventry{2019.11}{Second prize in National Finals of the “Challenge Cup” Competition}{Ministry of Education of the P.R.C., Ministry of Science, Technology of the P.R.C., etc.}{Beijing, China}{"A flexible battery assembly die and its structural design"}{P.S. “Challenge Cup”: National College Students Curricular Academic Science and Technology Works Competition}
+\cventry{2019.10}{Silver Prize in the National Finals of “Internet +” Competition}{Ministry of Education of P.R.C., Chinese Academy of Sciences, Chinese Academy of Engineering, State Intellectual Property Office, Central Committee of the Communist Youth League and Guangdong Provincial People's Government, etc.}{Hangzhou, China}{"A flexible battery assembly die and its structural design"}{P.S. “Internet +”: Innovation and Entrepreneurship Competition for China college students}
+\cventry{2019.7}{Silver Prize in the Finals of the 8th Winning in Guangzhou and Guangdong-Hong Kong-Macao Greater Bay Area Entrepreneurship Competition}{Guangzhou Municipal Labor and Social Security Bureau}{Hangzhou, China}{"A flexible battery assembly die and its structural design"}{}
+\cventry{2019.4}{Second prize in the Finals of the 5th Hong Kong University Student Innovation and Entrepreneurship Competition}{Guangzhou Municipal Labor and Social Security Bureau}{Hangzhou, China}{"A flexible battery assembly die and its structural design"}{}
+%\cvitem{2018.4}{Xu, Y., Niu, J., Xi, G., \textbf{Niu, X.}, Wang, Y., Guo, M., Yangzong, Q., Yao, Y., Sizhu, S.L. and Tian, J., 2018. TGF-$\beta$1 resulting in differential microRNA expression in bovine granulosa cells. Gene, 663, pp.88-100.}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\huge Skills \& Interest}
+\cvitem{Programming}{C/C\texttt{++}, Ubuntu, Python, ROS, \LaTeX, \textsc{java}, \texttt{C\#}}
+\cvitem{Software}{SolidWorks, AutoCAD, MATLAB, Endnote, Zotero, COMSOL, LS-DYNA, Solid Edge, ANSYS, EAGLE, KLayout, Simplify3D, Adobe Premiere Pro, OriginLab, Adobe Illustrator, SPSS, MS Office, etc.}
+\cvitem{Hardware}{Turtlebot, 3D printing, laser cutting, lathe and milling machine, PCB prototyping(LPKF), soldering, wiring, electrochemical working station, Transmission Electron Microscope (JEOL JEM-2100)/Scan Electron Microscope (FEI Quanta 450), Arduino}
+%\cvitem{Experiments}{Tensile/torsion/bending test, Finite Element Analysis, Computer Numerical Control}
+\cvitem{Languages}{Native Chinese, Fluent English, Limited working German, Elementary Swedish}
+\cvitem{Interests}{Soccer, Cooking, Reading, Cycling, Esports}
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
